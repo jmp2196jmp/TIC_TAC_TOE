@@ -1,0 +1,140 @@
+body {
+  font-family:sans-serif;
+  background-image: url('bg2.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.container{
+  width: 1000px;
+   margin: auto;
+}
+header {
+  width:1000px;
+  height:60px;
+  padding:5px;
+
+}
+h1 {
+  color:black;
+  margin-left: 160px;
+}
+h3{
+  color:black;
+}
+#start{
+  text-decoration: none;
+  color:black;
+  margin-left: 300px;
+  font-size: 50px;
+  font-style: italic;
+  font-family: monospace;
+}
+#back{
+  text-decoration: none;
+  color:green;
+  margin-left: 300px;
+  font-size: 20px;
+}
+.para{
+  margin-top: 50px;
+  color: red;
+  font-style: italic;
+}
+p{
+  margin : auto;
+}
+table {
+   margin-top: 75px;
+   background-color:black;
+   /* border: 2px solid black; */
+   height: 120px;
+   width:  400px;
+}
+td {
+   /* border: 2px solid black; */
+  height: 120px;
+  width:  120px;
+}
+input {
+  width:100%;
+  height:100%;
+  font-size:50px;
+  border:0px;
+  background-color:green;
+  color:#FFFFFF;
+  transition-duration:0.3s;
+}
+input:hover {
+  background-color:#00aaaa;
+}
+button {
+  padding:5px;
+  background-color:#00bbbb;
+  border:0px;
+  color:#FFFFFF;
+  font-size:100%;
+}
+button:hover {
+  background-color:#00aaaa;
+}
+#restart {
+  padding:5px;
+  background-color:green;
+  border:0px;
+  color:#FFFFFF;
+  font-size:100%;
+}
+#next{
+  position: absolute;
+  top: 200px;
+  left:610px;
+  font-size: 30px;
+  font-style: normal;
+}
+#restart:hover {
+  background-color:#00aaaa;
+}
+#overlay {
+   position:fixed;
+   top:0px;
+   left:0px;
+   width:100%;
+   height:100%;
+   background-image: url('win.gif');
+   background-color:#000000;
+   opacity:0.5;
+   visibility:hidden;
+}
+#popup {
+  z-index:5;
+  position:fixed;
+  left:270px;
+  /* background-image: url('win.gif'); */
+  top:400px;
+  width:200px;
+  padding:5px;
+  visibility:hidden;
+  background-color:#FFFFFF;
+  color:#555555;
+}
+#popupbutton {
+  width:100px;
+  }
+#a1{
+  position: absolute;
+  top: 300px;
+  left:720px;
+  font-size: 30px;
+  font-style: italic;
+  font-family: monospace;
+  color:blue;
+}
+#b1{
+  position: absolute;
+  top: 300px;
+  left:890px;
+  font-size: 30px;
+  font-style: italic;
+  font-family: monospace;
+  color:red;
+}

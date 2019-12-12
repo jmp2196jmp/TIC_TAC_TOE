@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <script src="action.js"></script>
+    <!-- Start of header -->
+    <header>
+      <h1>TIC TAC TOE</h1>
+    </header>
+    <!-- End of header -->
+    <!-- Start of div container-->
+    <div class="container">
+        <span id="next"></span>
+        <!-- Start of table -->
+        <table id="main">
+          <tr>
+            <td><input type="button" id="1" onclick="btn(1)" value=""/></td>
+            <td><input type="button" id="2" onclick="btn(2)" value=""/></td>
+            <td><input type="button" id="3" onclick="btn(3)" value=""/></td>
+          </tr>
+          <tr>
+            <td><input type="button" id="4" onclick="btn(4)" value=""/></td>
+            <td><input type="button" id="5" onclick="btn(5)" value=""/></td>
+            <td><input type="button" id="6" onclick="btn(6)" value=""/></td>
+          </tr>
+          <tr>
+            <td><input type="button" id="7" onclick="btn(7)" value=""/></td>
+            <td><input type="button" id="8" onclick="btn(8)" value=""/></td>
+            <td><input type="button" id="9" onclick="btn(9)" value=""/></td>
+          </tr>
+        </table>
+        <!-- End of table -->
+        <br>
+        <button onclick="reset()" id="restart">New game</button>
+        <div id="a1">
+          <p>Player X</p>
+          <br>
+          <p id="p1">0</p>
+        </div>
+        <div id="b1">
+          <p>Player O</p>
+          <br>
+          <p id="p2">0</p>
+        </div>
+        <!-- Start of section -->
+        <section align="center" id="popup">
+          <p id="text">text</p>
+          <button id="popupbutton" onclick="document.location.reload(true)">Ok</button>
+        </section>
+        <!-- End of section -->
+        <section id="overlay"></section>
+        <!-- <button onclick="location.href="index.html"" id="back">Back</button> -->
+        <a href="index.html" id="back">Back</a>
+    </div>
+    <!-- End of div container -->
+  </body>
+</html>
